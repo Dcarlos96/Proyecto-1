@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;       
+    display: flex;
+    flex-direction: column;  
+}
+
+header {
+    background-color: azure;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    flex: 1;
+    margin-top: 4rem; 
+}
+
+.main h2 {
+    background-color: azure;
+    text-align: center;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.container-principal {
+    background-color: rgb(90, 14, 49);
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+
+.container-mario-kart,
+.container-mortal-kombat,
+.container-games {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.games-images {
+    width: 10%;
+    height: auto;
+}
+
+.subtitle-h2 {
+    color: rgb(90, 14, 49);
+    font-weight: 700;
+    padding: 20px;
+}
+
+h3 {
+    color: rgb(90, 14, 49);
+    text-align: end;
+    margin: 20px 10px 0 0;
+    font-size: 1.6rem;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted rgb(90, 14, 49);
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: auto; 
+    width: 100%;
+}
+
+.footer-social-medias {
+    background-color: azure;
+    padding: 0.5rem 1rem;
+}
+
+.footer-social-medias ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    
+}
+
+.footer-social-medias-icons li img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+    
+    
+    
+    
