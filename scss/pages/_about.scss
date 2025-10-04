@@ -1,0 +1,36 @@
+.container-about{
+    background-color: $color-bg-light;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+
+    h2{
+        margin-bottom: 16px;
+    }
+
+    p{
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .about-images{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+        img{
+            max-width: 220px;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+}

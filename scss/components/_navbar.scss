@@ -1,0 +1,17 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    a{
+        text-decoration: none;
+        color: $color-black;
+        font-weight: 500;
+
+        &:hover{
+            color: $color-primary;
+        }
+    }
+}
+    
+    

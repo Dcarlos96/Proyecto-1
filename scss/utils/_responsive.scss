@@ -1,0 +1,27 @@
+/* Tablets */
+@media (max-width: $breakpoint-tablet) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Moviles */
+@media (max-width: $breakpoint-mobile) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    
+    .main h2{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,6 @@
+.btn-comprar {
+  @include button($color-primary, $color-white, $color-primary-dark);
+}
+
+
+
